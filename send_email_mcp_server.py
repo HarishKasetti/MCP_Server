@@ -47,4 +47,4 @@ def send_email(email:str, subject:str, body:str) -> str:
     return _send(email, subject, body)
 
 
-mcp.run(transport="streamable-http",  host="0.0.0.0", port=8000)
+mcp.run(transport="streamable-http")
